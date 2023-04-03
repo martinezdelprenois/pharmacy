@@ -1,0 +1,123 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background-image: url('./assets/bg-images/background-decoration.svg'),
+  linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.form-bottom-link a {
+  color: #ef0a7c!important;
+  text-decoration: underline !important;
+  font-weight: 600;
+  cursor: pointer;
+}
+ a {
+  color: #EFC90A!important;
+  text-decoration: underline !important;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* credentials component css */
+
+.chart-background-colors {
+  padding: 50px;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+  border-radius:  10px;
+  text-align: center;
+  width: 100%;
+  height: 30vh;
+
+}
+
+.remember {
+  float: left;
+  position: relative;
+  color: #FFFFFF;
+  margin-top: 7%;
+}
+
+.forgot {
+  float: right;
+  position: relative;
+  color: #FFFFFF;
+  margin-top: 7%;
+}
+
+.bottoms-spacing {
+  height: 1em;
+  width: 100%;
+  clear: both;
+}
+
+footer {
+clear: both;
+font-weight: 500;
+  p {
+    color:#764BA2;
+    margin: .3em 0em;
+  }
+}
+.copywrite-text {
+  left: 58%;
+  margin: 0;
+  bottom: 5%;
+	justify-content: center;
+  text-align: center;
+  font-weight: 600;
+}
+
+.home-contents {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-message-container {
+  height: 100vh;
+  width: 50%;
+  margin: 0% auto 0% 0%;
+  background-image:  url('./assets/bg-images/background-decoration-portrait.svg'), 
+  linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-size: cover;
+  color: #ffffff;
+}
+
+.welcome-message {
+  flex-direction: column;
+	justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 12%;
+  padding-top: 28%;
+}
+.welcome-message h1 {
+  padding-top: 5%;
+  font-size: 3em;
+  font-weight: 900;
+}
+.welcome-message h3 {
+  padding-top: 2%;
+  font-weight: 700;
+}
+.welcome-message p {
+  padding: 3em 0;
+  text-align: left;
+  font-size: larger;
+}
+.welcome-message-footer {
+  
+margin: 10% 0 0 0;
+}
+.welcome-message-footer text {
+  margin: 0 3% 0 0; 
+}
+.credentials-divs {
+  width: 100%;
+}
